@@ -1,4 +1,46 @@
 body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: -12px;
+}
+
+h2 {
+  color: #F5F5F5;
+  font-size: 16px;
+}
+
+h3 {
+  color: #F3BF99;
+  font-size: 12.8px;
+  text-align: center;
+  font-weight: 400;
+}
+
+p {
+  font-size: 10px;
+  color: #DCDCDC;
+  text-align: center;
+}
+
+.card {
   width: 320px;
   height: 780px;
+  background-color: #1A1B21;
 }
+
+.info-image {
+  width: 320px;
+}
+
