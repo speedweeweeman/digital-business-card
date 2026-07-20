@@ -1,5 +1,7 @@
+import Info from './components/Info'
+
 export default function App() {
   return (
-    <h1>App goes here</h1>
+    <Info />
   )
 }
