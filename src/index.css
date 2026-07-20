@@ -5,6 +5,7 @@ body {
   align-items: center;
   font-family: 'Inter', sans-serif;
   color: white;
+  background-color: #23252C;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 h2 {
   color: #F5F5F5;
   font-size: 16px;
+  margin-bottom: -5px;
 }
 
 h3 {
@@ -34,13 +36,43 @@ p {
   text-align: center;
 }
 
+button {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  margin: 7px 9px 20px 9px;
+}
+
+section {
+  margin: 15px 20px;
+}
+
+section p {
+  text-align: left;
+  line-height: 1.6;
+
+}
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   width: 320px;
   height: 780px;
   background-color: #1A1B21;
+  border-radius: 6px;
 }
 
 .info-image {
   width: 320px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: white
 }
 

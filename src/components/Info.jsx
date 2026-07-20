@@ -5,9 +5,9 @@ export default function Info() {
             <h1>John Pork</h1>
             <h3>Fullstack Developer</h3>
             <p>johnpork.com/piggy</p>
-            <div>
+            <div className="button-holder">
                 <button>Email</button>
-                <button>Linkedin</button>
+                <button className="linkedin">Linkedin</button>
             </div>
         </>
     )
